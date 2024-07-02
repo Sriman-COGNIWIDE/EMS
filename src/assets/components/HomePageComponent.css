@@ -1,0 +1,23 @@
+.home-page {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .home-page h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .home-page button {
+    button[type="submit"] {
+        background-color: #4CAF50; /* Green button */
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
+      }
+    cursor: pointer;
+  }
+  
