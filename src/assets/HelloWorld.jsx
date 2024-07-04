@@ -1,5 +1,7 @@
-function HelloWorld(){
-    return <h1>HI</h1>
-}
+import React from 'react';
 
-export default HelloWorld
+const HelloWorld = () => {
+  return <div>Hello World</div>;
+};
+
+export default HelloWorld;
