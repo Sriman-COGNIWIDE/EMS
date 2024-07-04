@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React,{useState,useEffect} from 'react';
+import PropTypes from 'prop-types';
 
-const EventPage = ({ eventId }) => {
+const Event = ({ eventId }) => {
   const [eventData, setEventData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -43,7 +44,10 @@ const EventPage = ({ eventId }) => {
       </p>
       <button>Register Now</button>
     </div>
-  );
+  );};
+
+Event.propTypes = {
+  eventId: PropTypes.string.isRequired,
 };
 
-export default EventPage;
+export default Event;
